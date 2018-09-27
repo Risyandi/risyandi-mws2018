@@ -24,7 +24,7 @@ var polygon = L.polygon([
 ]).addTo(mymap);
 
 // first way popup
-marker.bindPopup("<b>Resto Populer Disini</b><br>yes!").openPopup();
+marker.bindPopup("<b>Restaurant favorite in here</b><br>Let check at this location.").openPopup();
 // circle.bindPopup("ini sebuah circle.");
 // polygon.bindPopup("ini sebuah polygon.");
 
@@ -44,7 +44,9 @@ var popup = L.popup();
 function onMapClick(e) {
     popup
         .setLatLng(e.latlng)
-        .setContent("Lokasi yang dipilih : " + e.latlng.toString())
+        // .setContent("Anda Berada Di Koordinat :" + e.latlng.toString())
+        .setContent("You are on coordinate : Lat (" + e.latlng.lat + ") "+" Long("+ e.latlng.lng +")")
         .openOn(mymap);
-}
+        console.log(e.latlng, "chek location");
+    }
 mymap.on('click', onMapClick);
