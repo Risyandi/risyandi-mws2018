@@ -2,32 +2,75 @@
  * mobile web specialist 2018 
  * - Risyandi
  */
- 
- /* general */
+
+/* general */
+
 html {
-    background-color:rgba(100, 209, 212, 0.25);;
-    box-sizing: border-box;
-    font-family: 'Roboto', sans-serif;
-    font-size: 14px;
-    font-weight: 400;
-  }
-  *, *:before, *:after {
-    box-sizing: inherit;
-  }
+  background-color: rgba(100, 209, 212, 0.25);
+  ;
+  box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
 .container {
-  margin: 20px auto;
+  margin: 30vh auto;
   width: 560px;
 }
 .content {
-    display: block;
+  display: block;
 }
+
+/* card */
 .card {
-    background-color: #fff;
-    border-radius: 2px;
-    box-shadow: 0 2px 3px rgba(0, 0, 0, .1);
-    margin-bottom: 65px;
-    width: 100%;
-  }
-  .card-content {
-    padding: 10px;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 2px 3px rgba(0, 0, 0, .1);
+  margin-bottom: 65px;
+  width: 100%;
+}
+.card-title {
+  color: #6f6f6f;
+  font-size: 26px;
+  text-align: center;
+  margin: 0px;
+  padding: 10px;
+}
+.card-input {
+  text-align: center;
+  padding-bottom: 10px;
+}
+.card-content {
+  padding: 10px;
+}
+
+/* input */
+.card-input input[type=text] {
+  border: 2px solid #cccccc;
+  border-radius: 4px;
+  color: black;
+  width: 25%;
+  padding: 6px 8px 8px;
+  outline: none;
+  font-size: 13px;
+  box-sizing: border-box;
+  text-align: center;
+}
+
+/* button */
+.btn-style {
+	background-color: #003471;
+	color: white;
+	border: none;
+	text-decoration: none;
+	display: inline-block;
+	text-align: center;
+	padding: 10px 20px 10px 20px;
+	border-radius: 4px;
+	text-transform: uppercase;
+  font-weight: bold;
+  outline: 0;
 }
