@@ -1,0 +1,33 @@
+/* create for project 
+ * mobile web specialist 2018 
+ * - Risyandi
+ */
+ 
+ /* general */
+html {
+    background-color:rgba(100, 209, 212, 0.25);;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+  }
+  *, *:before, *:after {
+    box-sizing: inherit;
+  }
+.container {
+  margin: 20px auto;
+  width: 560px;
+}
+.content {
+    display: block;
+}
+.card {
+    background-color: #fff;
+    border-radius: 2px;
+    box-shadow: 0 2px 3px rgba(0, 0, 0, .1);
+    margin-bottom: 65px;
+    width: 100%;
+  }
+  .card-content {
+    padding: 10px;
+}
