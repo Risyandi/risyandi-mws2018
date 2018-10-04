@@ -53,6 +53,7 @@ html {
 .sidebar{
     background: gainsboro;
     grid-row: 2/5;
+    grid-column-end: 1/2;
 }
 .sidebar img {
     border-radius: 50%;
@@ -89,6 +90,9 @@ html {
 
 /* media query */
 @media screen and (max-width:800px) {
+    body{
+        width: 98%;
+    }
     .main-container {
         margin-left: auto;
         margin-right: auto;
@@ -104,31 +108,23 @@ html {
     .border {
         background-color: gray;
     }
-    .menu{
-        background: gainsboro;
-        grid-column: 1;
+    .menu, .sidebar, .konten, .footer{
+        grid-column: 1/1;
     }
     .menu img {
         width: 150px;
         padding: 5px;
     }
     .sidebar{
-        background: gainsboro;
-        grid-row: 2;
+        grid-row: 2/2;
+    }
+    .footer {
+        grid-row: 6/6;
     }
     .sidebar img {
         border-radius: 50%;
-        /* padding: 10px;     */
-    }
-    .konten{
-        background: gainsboro;
-        grid-column: 1/2;
-    }
-    .footer{
-        background: gainsboro;
-        grid-column: 1/2;
-        text-align: center;
-        padding: 10px;
+        padding: 0px;
+        margin: auto;    
     }
 
     /* coloring */
