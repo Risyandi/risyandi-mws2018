@@ -96,13 +96,13 @@ html {
     .main-container {
         margin-left: auto;
         margin-right: auto;
-        width: 750px;
+        width: 100%;
     }
     .container{
         display: grid;
         width: 100%;
         grid-template-columns: 100%;
-        grid-template-rows: 50px repeat(3, 200px) 30px;
+        grid-template-rows: 50px repeat(4, 150px) 30px;
         grid-gap: 4px;
     }
     .border {
@@ -110,6 +110,7 @@ html {
     }
     .menu, .sidebar, .konten, .footer{
         grid-column: 1/1;
+        text-align: center;
     }
     .menu img {
         width: 150px;
@@ -117,6 +118,7 @@ html {
     }
     .sidebar{
         grid-row: 2/2;
+        text-align: center;
     }
     .footer {
         grid-row: 6/6;
@@ -124,7 +126,8 @@ html {
     .sidebar img {
         border-radius: 50%;
         padding: 0px;
-        margin: auto;    
+        margin: auto; 
+        height: 100%;   
     }
 
     /* coloring */
