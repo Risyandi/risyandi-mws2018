@@ -62,6 +62,10 @@ html {
 .konten{
     background: gainsboro;
     grid-column: 2/5;
+    text-align: center;
+}
+.konten.color-3, .konten.color-5{
+    padding: 60px;
 }
 .footer{
     background: gainsboro;
@@ -70,6 +74,17 @@ html {
     text-align: center;
     padding: 10px;
 }
+.map-wrapper {
+    position: relative;
+    padding-bottom: 200px;
+  }
+.map-wrapper iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+  }
 
 /* coloring */
 .color-1 {
@@ -94,8 +109,7 @@ html {
         width: 98%;
     }
     .main-container {
-        margin-left: auto;
-        margin-right: auto;
+        margin-left: 3px;
         width: 100%;
     }
     .container{
@@ -111,6 +125,9 @@ html {
     .menu, .sidebar, .konten, .footer{
         grid-column: 1/1;
         text-align: center;
+    }
+    .konten.color-3 {
+        padding: 50px;
     }
     .menu img {
         width: 150px;
@@ -129,7 +146,17 @@ html {
         margin: auto; 
         height: 100%;   
     }
-
+    .map-wrapper {
+        position: relative;
+        padding-bottom: 150px;
+      }
+    .map-wrapper iframe {
+        position: absolute;
+        top: 0;
+        left: 0;
+        height: 100%;
+        width: 100%;
+      }
     /* coloring */
     .color-1 {
         background: #ec4e1f ;
