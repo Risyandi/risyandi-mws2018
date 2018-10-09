@@ -11,7 +11,7 @@ L.tileLayer('https://api.tiles.mapbox.com/v4/{id}/{z}/{x}/{y}.png?access_token={
 var marker = L.marker([-6.828339, 107.798131]).addTo(mymap);
 // way adding marker circle
 var circle = L.circle([-6.828339, 107.798131], {
-    color: 'blue',
+    color: 'blue',  
     fillColor: 'blue',
     fillOpacity: 0.34,
     radius: 500
@@ -24,7 +24,7 @@ var polygon = L.polygon([
 ]).addTo(mymap);
 
 // first way popup
-marker.bindPopup("<b>Restaurant favorite in here</b><br>Let check at this location.").openPopup();
+marker.bindPopup("<center><b>Wana Wisata</b></br><b>Kampoeng Ciherang</b><br>Let check at this location.</br><a href='#'>Lokasi Istimewa Dengan Mapbox</a></center>").openPopup();
 // circle.bindPopup("ini sebuah circle.");
 // polygon.bindPopup("ini sebuah polygon.");
 
