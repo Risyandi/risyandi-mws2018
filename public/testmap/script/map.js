@@ -24,7 +24,7 @@ var polygon = L.polygon([
 ]).addTo(mymap);
 
 // first way popup
-marker.bindPopup("<center><b>Wana Wisata</b></br><b>Kampoeng Ciherang</b><br>Let check at this location.</br><a href='#'>Lokasi Istimewa Dengan Mapbox</a></center>").openPopup();
+marker.bindPopup("<center><b>Wana Wisata</b></br><b>Kampoeng Ciherang</b><br>Let check at this location.</br><a href='https://risyandi-mws.firebaseapp.com/project2/' target='_blank'>Lokasi Istimewa Dengan Mapbox</a></center>").openPopup();
 // circle.bindPopup("ini sebuah circle.");
 // polygon.bindPopup("ini sebuah polygon.");
 
