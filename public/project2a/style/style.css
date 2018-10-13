@@ -1,46 +1,26 @@
-/* create for project 
- * mobile web specialist 2018 
- * - Risyandi
- */
-
-/* general */
+/* css reset */
 html {
-    background-color:rgba(100, 209, 212, 0.25);;
     box-sizing: border-box;
-    font-family: 'Roboto', sans-serif;
-    font-size: 14px;
-    font-weight: 400;
+    font-size: 16px;
   }
   *, *:before, *:after {
     box-sizing: inherit;
   }
-html, body, #map {
-    height: 100%;
-    width: 100vw;
-}
-body{
-    padding: 0;
+  body, h1, h2, h3, h4, h5, h6, p, ol, ul {
     margin: 0;
-}
-.container{
-    display: grid;
-    height: 100%;
-    grid-gap: 4px;
-    grid-template-columns: repeat(8, 1fr);
-    grid-template-rows: 60% 40%;
-}
-.peta{
-    grid-column: 1/-1;
-}
-.gambar{
-    background: pink ;
-    grid-column: 1/6;
-    padding: 100px;
-    text-align: center;
-}
-.review{
-    background: greenyellow;
-    grid-column: 6/-1 ;
-    padding: 100px;
-    text-align: center;
+    padding: 0;
+    font-weight: normal;
+  }
+  ol, ul {
+    list-style: none;
+  }
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+/* css reset */
+
+#mapid {
+    height: 100em;
+    width: 100%;
 }
