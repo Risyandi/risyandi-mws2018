@@ -5,27 +5,35 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="style/style.css">
     <link rel="shortcut icon" href="images/favicon.ico" id="favicon-ico">
+    <link rel="stylesheet" href="style/style.css">
     <title>Risyandi | Devtools & Calculator</title>
 </head>
 
 <body>
-    <div class="container" id="container">
-        <div class="card" id="card">
-            <div class="card-content" id="card-content">
-                <h2 class="card-title">Tambahkan Dua Angka</h2>
-                <div class="card-input" id="card-input">
-                    <input type="text" name="numberFirst" size="5" placeholder="0"> +
-                    <input type="text" name="numberSecond" size="5" placeholder="0">
-                    <button class="btn-style"> = </button>
-                    <input type="text" name="hasil" size="5" placeholder="0" readonly>
-                    <label id="message"></label>
+    <div>
+        <div class="main-container">
+            <div class="container">
+                <div class="bor-rad menu color-1"> <a href="index.html"><img src="images/risyandi_logo.png" alt="logo" srcset="images/risyandi_logo.png"></a> 
                 </div>
+                <div class="bor-rad konten color-2">
+                    <div class="card" id="card">
+                        <div class="card-content" id="card-content">
+                            <h2 class="card-title">Tambahkan Dua Angka</h2>
+                            <div class="card-input" id="card-input">
+                                <input type="text" name="numberFirst" size="5" placeholder="0"> +
+                                <input type="text" name="numberSecond" size="5" placeholder="0">
+                                <button class="btn-style"> = </button>
+                                <input type="text" name="hasil" size="5" placeholder="0" readonly>
+                                <label id="message"></label>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="bor-rad footer color-3">Hand Made By : <a href="https://risyandi.github.io/" target="_blank">Risyandi</a></div>
             </div>
         </div>
     </div>
 </body>
 <script src="script/addNumbers.js"></script>
-
 </html>

@@ -3,11 +3,9 @@
  * - Risyandi
  */
 
-/* general */
-
+/* css reset */
 html {
-  background-color: rgba(100, 209, 212, 0.25);
-  ;
+  background-color:rgba(100, 209, 212, 0.25);;
   box-sizing: border-box;
   font-family: 'Roboto', sans-serif;
   font-size: 14px;
@@ -16,9 +14,117 @@ html {
 *, *:before, *:after {
   box-sizing: inherit;
 }
-.container {
-  margin: 30vh auto;
-  width: 560px;
+body, h1, h2, h3, h4, h5, h6, p, ol, ul {
+  margin: 0;
+  padding: 0;
+  font-weight: normal;
+}
+ol, ul {
+  list-style: none;
+}
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* general */
+.main-container {
+  margin-left: auto;
+  margin-right: auto;
+  width: 750px;
+  padding-top: 5px;
+}
+.container{
+  display: grid;
+  width: 100%;
+  grid-template-columns: 1fr;
+  grid-template-rows: 50px 200px;
+  grid-gap: 4px;
+}
+.menu{
+  background: gainsboro;
+  grid-column: 1/5;
+}
+.menu img {
+  width: 130px;
+  padding: 10px;
+}
+.konten{
+  background: gainsboro;
+  grid-column: 1/5;
+  text-align: center;
+}
+.footer{
+  background: gainsboro;
+  grid-column: 1/5;
+  grid-row: 3/3;
+  text-align: center;
+  padding: 10px;
+  color: white;
+}
+
+/* coloring */
+.color-1 {
+  background: #ec4e1f ;
+}
+.color-2 {
+  background: #0992a5 ;
+}
+.color-3 {
+  background: #ff9505 ;
+}
+
+/* custom */
+.bor-rad{
+  border-radius: 10px;
+}
+.footer a, .konten a {
+  color: white;
+  text-decoration: none;
+}
+
+/* media query */
+@media screen and (max-width:800px) {
+  body{
+      width: 98%;
+  }
+  .main-container {
+      margin-left: 3px;
+      width: 100%;
+  }
+  .container{
+      display: grid;
+      width: 100%;
+      grid-template-columns: 100%;
+      grid-template-rows: 50px 200px;
+      grid-gap: 4px;
+  }
+  .border {
+      background-color: gray;
+  }
+  .menu, .konten, .footer{
+      grid-column: 1/1;
+      text-align: center;
+  }
+  .menu img {
+      width: 125px;
+      padding: 10px;
+  }
+  .footer {
+      grid-row: 3/3;
+      color: white;
+  }
+
+  /* coloring */
+  .color-1 {
+      background: #ec4e1f ;
+  }
+  .color-2 {
+      background: #0992a5 ;
+  }
+  .color-3 {
+      background: #ff9505 ;
+  }
 }
 .content {
   display: block;
@@ -26,30 +132,27 @@ html {
 
 /* card */
 .card {
-  background-color: #fff;
   border-radius: 10px;
-  box-shadow: 0 2px 3px rgba(0, 0, 0, .1);
   margin-bottom: 65px;
   width: 100%;
 }
 .card-title {
-  color: #6f6f6f;
-  font-size: 26px;
+  font-size: 20px;
   text-align: center;
-  margin: 0px;
   padding: 10px;
+  color: white;
 }
 .card-input {
   text-align: center;
   padding-bottom: 10px;
 }
 .card-content {
-  padding: 10px;
+  padding-top: 40px;
 }
 
 /* input */
 .card-input input[type=text] {
-  border: 2px solid #cccccc;
+  border: 2px solid white;
   border-radius: 4px;
   color: black;
   width: 25%;
