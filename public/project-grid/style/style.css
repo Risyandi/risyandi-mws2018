@@ -1,0 +1,216 @@
+/* css reset */
+html {
+    background-color:rgba(100, 209, 212, 0.25);;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+  }
+  
+  *, *:before, *:after {
+    box-sizing: inherit;
+  }
+
+  body, h1, h2, h3, h4, h5, h6, p, ol, ul {
+    margin: 0;
+    padding: 0;
+    font-weight: normal;
+  }
+  
+  ol, ul {
+    list-style: none;
+  }
+  
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+/* css reset */
+
+.main-container {
+    margin-left: auto;
+    margin-right: auto;
+    width: 750px;
+}
+.container{
+    display: grid;
+    width: 100%;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: 50px repeat(3, 200px) 30px;
+    grid-gap: 4px;
+}
+.border {
+    background-color: gray;
+}
+.menu{
+    background: gainsboro;
+    grid-column: 1/5;
+    text-align: center;
+    padding: 15px;
+    color: aliceblue;
+}
+.menu img {
+    width: 150px;
+    padding: 5px;
+}
+.sidebar{
+    background: gainsboro;
+    grid-row: 2/5;
+    grid-column-end: 1/2;
+    padding: 85px;
+    padding-top: 170%;
+    color: aliceblue;
+}
+.sidebar img {
+    border-radius: 50%;
+    padding: 10px;    
+}
+.konten{
+    background: gainsboro;
+    grid-column: 2/5;
+    text-align: center;
+    color: aliceblue;
+}
+.konten.color-3, .konten.color-5, .konten.color-4{
+    padding: 60px;
+}
+.footer{
+    background: gainsboro;
+    grid-column: 1/5;
+    grid-row: 5/5;
+    text-align: center;
+    padding: 10px;
+    color: aliceblue;
+}
+.map-wrapper {
+    position: relative;
+    padding-bottom: 200px;
+  }
+.map-wrapper iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+  }
+
+/* coloring */
+.color-1 {
+    background: #ec4e1f ;
+}
+.color-2 {
+    background: #0992a5 ;
+}
+.color-3 {
+    background: #ff9505 ;
+}
+.color-4 {
+    background: #016fba ;
+}
+.color-5 {
+    background: #84596c;
+}
+
+/* media query */
+@media screen and (max-width:800px) {
+    body{
+        width: 98%;
+    }
+    .main-container {
+        margin-left: 3px;
+        width: 100%;
+    }
+    .container{
+        display: grid;
+        width: 100%;
+        grid-template-columns: 100%;
+        grid-template-rows: 50px repeat(4, 150px) 30px;
+        grid-gap: 4px;
+    }
+    .border {
+        background-color: gray;
+    }
+    .menu, .sidebar, .konten, .footer{
+        grid-column: 1/1;
+        text-align: center;
+    }
+    .konten.color-3 {
+        padding: 50px;
+    }
+    .menu img {
+        width: 150px;
+        padding: 5px;
+    }
+    .sidebar{
+        grid-row: 2/2;
+        text-align: center;
+        padding: 65px;
+    }
+    .footer {
+        grid-row: 6/6;
+    }
+    .sidebar img {
+        border-radius: 50%;
+        padding: 0px;
+        margin: auto; 
+        height: 100%;   
+    }
+    .map-wrapper {
+        position: relative;
+        padding-bottom: 150px;
+      }
+    .map-wrapper iframe {
+        position: absolute;
+        top: 0;
+        left: 0;
+        height: 100%;
+        width: 100%;
+      }
+    /* coloring */
+    .color-1 {
+        background: #ec4e1f ;
+    }
+    .color-2 {
+        background: #0992a5 ;
+    }
+    .color-3 {
+        background: #ff9505 ;
+    }
+    .color-4 {
+        background: #016fba ;
+    }
+    .color-5 {
+        background: #84596c;
+    }
+}
+
+/* 
+noted for course :
+=====================
+
+grid row is simplify from here :
+grid-row-start: 2;
+grid-row-end: 5; 
+example --> grid-row: 2/5;
+=====================
+
+grid column is simplify from here :
+grid-column-start: 1 ;
+grid-column-end: 4; 
+example --> grid-row: 1/4;
+
+=====================
+repeat is simplify from here :
+grid-template-columns: 1fr 1fr 1fr;
+example --> repeat(3, 1fr)
+
+// for coloring grid 
+color 1 : #ec4e1f
+color 2 : #0992a5
+color 3 : #ff9505
+color 4 : #016fba
+color 5 : #84596c
+*/
+
+
+
