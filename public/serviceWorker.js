@@ -45,14 +45,13 @@ self.addEventListener('fetch', function (event) {
     console.log("run process fetching");
     event.respondWith(
         caches.match(event.request).then(function (response) {
-            console.log(response);
-
-            return response || fetch(event.request).then(function (response) {
-                return caches.open(staticCacheName).then(function (cache) {
-                    cache.put(event.request, response.clone());
-                    return response;
-                });
-            })
+            return response || fetch(event.request);
         })
     );
 });
+// .then(function (response) {
+//     return caches.open(staticCacheName).then(function (cache) {
+//         cache.put(event.request, response.clone());
+//         return response;
+//     });
+// })
