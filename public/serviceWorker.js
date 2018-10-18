@@ -1,4 +1,6 @@
+// init naming your cache
 let staticCacheName = "risyandi-mws-static";
+
 // adding file 
 let urlToCache = [
     '/index.html',
@@ -43,6 +45,7 @@ self.addEventListener('activate', function (event) {
 //  Process Listen fetching service worker
 self.addEventListener('fetch', function (event) {
     console.log("run process fetching");
+    // event respond untill process fetch service worker
     event.respondWith(
         caches.open(staticCacheName).then(function (cache) {
             return cache.match(event.request).then(function (response) {
