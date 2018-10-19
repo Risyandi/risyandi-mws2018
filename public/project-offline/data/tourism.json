@@ -1,0 +1,414 @@
+{
+    "tourism": [
+        {
+            "id": 1,
+            "name": "Menara Loji Jatinangor",
+            "city": "Jatinangor",
+            "photograph": "lorem.jpg",
+            "address": "Jl. Raya Bandung Sumedang, Sayang, Jatinangor, Kabupaten Sumedang, Jawa Barat 45363",
+            "latlng": {
+                "lat": -6.925234,
+                "lng": 107.769749
+            },
+            "category_place": "Historical Place",
+            "operating_hours": {
+                "Monday": "08:00 pm - 05:00 am",
+                "Tuesday": "08:00 pm - 05:00 am",
+                "Wednesday": "08:00 pm - 05:00 am",
+                "Thursday": "08:00 pm - 05:00 am",
+                "Friday": "08:00 pm - 05:00 am",
+                "Saturday": "08:00 pm - 05:00 am",
+                "Sunday": "08:00 pm - 05:00 am"
+            },
+            "reviews": [
+                {
+                    "name": "Herman",
+                    "date": "October 17, 2018",
+                    "rating": 4,
+                    "comment": "comment lorem ipsum"
+                },
+                {
+                    "name": "Taufik",
+                    "date": "October 18, 2018",
+                    "rating": 4,
+                    "comment": "comment lorem ipsum"
+                },
+                {
+                    "name": "Astuti",
+                    "date": "October 18, 2018",
+                    "rating": 4,
+                    "comment": "comment lorem ipsum"
+                }
+            ]
+        },
+        {
+            "id": 2,
+            "name": "Jembatan Cincin Cikuda",
+            "city": "Jatinangor",
+            "photograph": "lorem.jpg",
+            "address": "Jl. Cikuda, Hegarmanah, Jatinangor, Kabupaten Sumedang, Jawa Barat 45363",
+            "latlng": {
+                "lat": -6.925316,
+                "lng": 107.778748
+            },
+            "category_place": "historical place",
+            "operating_hours": {
+                "Monday": "08:00 pm - 05:00 am",
+                "Tuesday": "08:00 pm - 05:00 am",
+                "Wednesday": "08:00 pm - 05:00 am",
+                "Thursday": "08:00 pm - 05:00 am",
+                "Friday": "08:00 pm - 05:00 am",
+                "Saturday": "08:00 pm - 05:00 am",
+                "Sunday": "08:00 pm - 05:00 am"
+            },
+            "reviews": [
+                {
+                    "name": "Herman",
+                    "date": "October 17, 2018",
+                    "rating": 4,
+                    "comment": "comment lorem ipsum"
+                },
+                {
+                    "name": "Taufik",
+                    "date": "October 18, 2018",
+                    "rating": 4,
+                    "comment": "comment lorem ipsum"
+                },
+                {
+                    "name": "Astuti",
+                    "date": "October 18, 2018",
+                    "rating": 4,
+                    "comment": "comment lorem ipsum"
+                }
+            ]
+        },
+        {
+            "id": 3,
+            "name": "Gunung Geulis",
+            "city": "Jatinangor",
+            "photograph": "lorem.jpg",
+            "address": "Jln Jatiroke, Jatinangor, Sumedang Regency, West Java",
+            "latlng": {
+                "lat": -6.934219,
+                "lng": 107.803001
+            },
+            "category_place": "Mountain",
+            "operating_hours": {
+                "Monday": "08:00 pm - 05:00 am",
+                "Tuesday": "08:00 pm - 05:00 am",
+                "Wednesday": "08:00 pm - 05:00 am",
+                "Thursday": "08:00 pm - 05:00 am",
+                "Friday": "08:00 pm - 05:00 am",
+                "Saturday": "08:00 pm - 05:00 am",
+                "Sunday": "08:00 pm - 05:00 am"
+            },
+            "reviews": [
+                {
+                    "name": "Herman",
+                    "date": "October 17, 2018",
+                    "rating": 4,
+                    "comment": "comment lorem ipsum"
+                },
+                {
+                    "name": "Taufik",
+                    "date": "October 18, 2018",
+                    "rating": 4,
+                    "comment": "comment lorem ipsum"
+                },
+                {
+                    "name": "Astuti",
+                    "date": "October 18, 2018",
+                    "rating": 4,
+                    "comment": "comment lorem ipsum"
+                }
+            ]
+        },
+        {
+            "id": 4,
+            "name": "Gunung Kareumbi",
+            "city": "Cimanggung",
+            "photograph": "lorem.jpg",
+            "address": "Jln Sindanggalih, Cimanggung, Sumedang Regency, West Java",
+            "latlng": {
+                "lat": -6.930890,
+                "lng": 107.869400
+            },
+            "category_place": "Mountain",
+            "operating_hours": {
+                "Monday": "08:00 pm - 05:00 am",
+                "Tuesday": "08:00 pm - 05:00 am",
+                "Wednesday": "08:00 pm - 05:00 am",
+                "Thursday": "08:00 pm - 05:00 am",
+                "Friday": "08:00 pm - 05:00 am",
+                "Saturday": "08:00 pm - 05:00 am",
+                "Sunday": "08:00 pm - 05:00 am"
+            },
+            "reviews": [
+                {
+                    "name": "Herman",
+                    "date": "October 17, 2018",
+                    "rating": 4,
+                    "comment": "comment lorem ipsum"
+                },
+                {
+                    "name": "Taufik",
+                    "date": "October 18, 2018",
+                    "rating": 4,
+                    "comment": "comment lorem ipsum"
+                },
+                {
+                    "name": "Astuti",
+                    "date": "October 18, 2018",
+                    "rating": 4,
+                    "comment": "comment lorem ipsum"
+                }
+            ]
+        },
+        {
+            "id": 5,
+            "name": "Gunung Kerenceng",
+            "city": "Sukajaya",
+            "photograph": "lorem.jpg",
+            "address": "Jln Sukajaya, South Sumedang, Sumedang Regency, West Java",
+            "latlng": {
+                "lat": -6.933400,
+                "lng": 107.881944
+            },
+            "category_place": "Mountain",
+            "operating_hours": {
+                "Monday": "08:00 pm - 05:00 am",
+                "Tuesday": "08:00 pm - 05:00 am",
+                "Wednesday": "08:00 pm - 05:00 am",
+                "Thursday": "08:00 pm - 05:00 am",
+                "Friday": "08:00 pm - 05:00 am",
+                "Saturday": "08:00 pm - 05:00 am",
+                "Sunday": "08:00 pm - 05:00 am"
+            },
+            "reviews": [
+                {
+                    "name": "Herman",
+                    "date": "October 17, 2018",
+                    "rating": 4,
+                    "comment": "comment lorem ipsum"
+                },
+                {
+                    "name": "Taufik",
+                    "date": "October 18, 2018",
+                    "rating": 4,
+                    "comment": "comment lorem ipsum"
+                },
+                {
+                    "name": "Astuti",
+                    "date": "October 18, 2018",
+                    "rating": 4,
+                    "comment": "comment lorem ipsum"
+                }
+            ]
+        },
+        {
+            "id": 6,
+            "name": "Kampung Ciherang",
+            "city": "Tanjung Sari",
+            "photograph": "lorem.jpg",
+            "address": "Jln Ciherang, South Sumedang, Sumedang Regency, West Java 45311",
+            "latlng": {
+                "lat": -6.829277,
+                "lng": 107.798066
+            },
+            "category_place": "Picnic Place",
+            "operating_hours": {
+                "Monday": "08:00 pm - 05:00 am",
+                "Tuesday": "08:00 pm - 05:00 am",
+                "Wednesday": "08:00 pm - 05:00 am",
+                "Thursday": "08:00 pm - 05:00 am",
+                "Friday": "08:00 pm - 05:00 am",
+                "Saturday": "08:00 pm - 05:00 am",
+                "Sunday": "08:00 pm - 05:00 am"
+            },
+            "reviews": [
+                {
+                    "name": "Herman",
+                    "date": "October 17, 2018",
+                    "rating": 4,
+                    "comment": "comment lorem ipsum"
+                },
+                {
+                    "name": "Taufik",
+                    "date": "October 18, 2018",
+                    "rating": 4,
+                    "comment": "comment lorem ipsum"
+                },
+                {
+                    "name": "Astuti",
+                    "date": "October 18, 2018",
+                    "rating": 4,
+                    "comment": "comment lorem ipsum"
+                }
+            ]
+        },
+        {
+            "id": 7,
+            "name": "Kampung Toga",
+            "city": "Sumedang",
+            "photograph": "lorem.jpg",
+            "address": "Jln Sumedang Selatan, Sukajaya, Sumedang Sel., Kabupaten Sumedang, Jawa Barat 45311",
+            "latlng": {
+                "lat": -6.876633,
+                "lng": 107.909249
+            },
+            "category_place": "Picnic Place",
+            "operating_hours": {
+                "Monday": "08:00 pm - 05:00 am",
+                "Tuesday": "08:00 pm - 05:00 am",
+                "Wednesday": "08:00 pm - 05:00 am",
+                "Thursday": "08:00 pm - 05:00 am",
+                "Friday": "08:00 pm - 05:00 am",
+                "Saturday": "08:00 pm - 05:00 am",
+                "Sunday": "08:00 pm - 05:00 am"
+            },
+            "reviews": [
+                {
+                    "name": "Herman",
+                    "date": "October 17, 2018",
+                    "rating": 4,
+                    "comment": "comment lorem ipsum"
+                },
+                {
+                    "name": "Taufik",
+                    "date": "October 18, 2018",
+                    "rating": 4,
+                    "comment": "comment lorem ipsum"
+                },
+                {
+                    "name": "Astuti",
+                    "date": "October 18, 2018",
+                    "rating": 4,
+                    "comment": "comment lorem ipsum"
+                }
+            ]
+        },
+        {
+            "id": 8,
+            "name": "Monumen Binokasih",
+            "city": "Sumedang",
+            "photograph": "lorem.jpg",
+            "address": "Jln P. Sugih No.16, Regol Wetan, Sumedang Sel., Kabupaten Sumedang, Jawa Barat 45311",
+            "latlng": {
+                "lat": -6.860058,
+                "lng": 107.916244
+            },
+            "category_place": "Monument",
+            "operating_hours": {
+                "Monday": "08:00 pm - 05:00 am",
+                "Tuesday": "08:00 pm - 05:00 am",
+                "Wednesday": "08:00 pm - 05:00 am",
+                "Thursday": "08:00 pm - 05:00 am",
+                "Friday": "08:00 pm - 05:00 am",
+                "Saturday": "08:00 pm - 05:00 am",
+                "Sunday": "08:00 pm - 05:00 am"
+            },
+            "reviews": [
+                {
+                    "name": "Herman",
+                    "date": "October 17, 2018",
+                    "rating": 4,
+                    "comment": "comment lorem ipsum"
+                },
+                {
+                    "name": "Taufik",
+                    "date": "October 18, 2018",
+                    "rating": 4,
+                    "comment": "comment lorem ipsum"
+                },
+                {
+                    "name": "Astuti",
+                    "date": "October 18, 2018",
+                    "rating": 4,
+                    "comment": "comment lorem ipsum"
+                }
+            ]
+        },
+        {
+            "id": 9,
+            "name": "Lingga Sumedang",
+            "city": "Sumedang",
+            "photograph": "lorem.jpg",
+            "address": "Regol Wetan, South Sumedang, Sumedang Regency, West Java 45311",
+            "latlng": {
+                "lat": -6.859909,
+                "lng": 107.920547
+            },
+            "category_place": "monument",
+            "operating_hours": {
+                "Monday": "08:00 pm - 05:00 am",
+                "Tuesday": "08:00 pm - 05:00 am",
+                "Wednesday": "08:00 pm - 05:00 am",
+                "Thursday": "08:00 pm - 05:00 am",
+                "Friday": "08:00 pm - 05:00 am",
+                "Saturday": "08:00 pm - 05:00 am",
+                "Sunday": "08:00 pm - 05:00 am"
+            },
+            "reviews": [
+                {
+                    "name": "Herman",
+                    "date": "October 17, 2018",
+                    "rating": 4,
+                    "comment": "comment lorem ipsum"
+                },
+                {
+                    "name": "Taufik",
+                    "date": "October 18, 2018",
+                    "rating": 4,
+                    "comment": "comment lorem ipsum"
+                },
+                {
+                    "name": "Astuti",
+                    "date": "October 18, 2018",
+                    "rating": 4,
+                    "comment": "comment lorem ipsum"
+                }
+            ]
+        },
+        {
+            "id": 10,
+            "name": "Egg Park",
+            "city": "Sumedang",
+            "photograph": "lorem.jpg",
+            "address": "Jln Mayor Abdurahman, Talun, Sumedang Utara, Regol Wetan, Sumedang Selatan, Kotakaler, Sumedang Utara, Kabupaten Sumedang, Jawa Barat 45311",
+            "latlng": {
+                "lat": -6.847350,
+                "lng":  107.924124
+            },
+            "category_place": "Monument",
+            "operating_hours": {
+                "Monday": "08:00 pm - 05:00 am",
+                "Tuesday": "08:00 pm - 05:00 am",
+                "Wednesday": "08:00 pm - 05:00 am",
+                "Thursday": "08:00 pm - 05:00 am",
+                "Friday": "08:00 pm - 05:00 am",
+                "Saturday": "08:00 pm - 05:00 am",
+                "Sunday": "08:00 pm - 05:00 am"
+            },
+            "reviews": [
+                {
+                    "name": "Herman",
+                    "date": "October 17, 2018",
+                    "rating": 4,
+                    "comment": "comment lorem ipsum"
+                },
+                {
+                    "name": "Taufik",
+                    "date": "October 18, 2018",
+                    "rating": 4,
+                    "comment": "comment lorem ipsum"
+                },
+                {
+                    "name": "Astuti",
+                    "date": "October 18, 2018",
+                    "rating": 4,
+                    "comment": "comment lorem ipsum"
+                }
+            ]
+        }
+    ]
+}
