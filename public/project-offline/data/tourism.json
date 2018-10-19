@@ -128,7 +128,7 @@
             "name": "Gunung Kareumbi",
             "city": "Cimanggung",
             "photograph": "lorem.jpg",
-            "address": "Sindanggalih, Cimanggung, Sumedang Regency, West Java",
+            "address": "Jln Sindanggalih, Cimanggung, Sumedang Regency, West Java",
             "latlng": {
                 "lat": -6.930890,
                 "lng": 107.869400
@@ -169,7 +169,7 @@
             "name": "Gunung Kerenceng",
             "city": "Sukajaya",
             "photograph": "lorem.jpg",
-            "address": "Sukajaya, South Sumedang, Sumedang Regency, West Java",
+            "address": "Jln Sukajaya, South Sumedang, Sumedang Regency, West Java",
             "latlng": {
                 "lat": -6.933400,
                 "lng": 107.881944
@@ -210,7 +210,7 @@
             "name": "Kampung Ciherang",
             "city": "Tanjung Sari",
             "photograph": "lorem.jpg",
-            "address": "Ciherang, South Sumedang, Sumedang Regency, West Java 45311",
+            "address": "Jln Ciherang, South Sumedang, Sumedang Regency, West Java 45311",
             "latlng": {
                 "lat": -6.829277,
                 "lng": 107.798066
@@ -251,7 +251,7 @@
             "name": "Kampung Toga",
             "city": "Sumedang",
             "photograph": "lorem.jpg",
-            "address": "Sumedang Selatan, Sukajaya, Sumedang Sel., Kabupaten Sumedang, Jawa Barat 45311",
+            "address": "Jln Sumedang Selatan, Sukajaya, Sumedang Sel., Kabupaten Sumedang, Jawa Barat 45311",
             "latlng": {
                 "lat": -6.876633,
                 "lng": 107.909249
@@ -292,7 +292,7 @@
             "name": "Monumen Binokasih",
             "city": "Sumedang",
             "photograph": "lorem.jpg",
-            "address": "Jl. P. Sugih No.16, Regol Wetan, Sumedang Sel., Kabupaten Sumedang, Jawa Barat 45311",
+            "address": "Jln P. Sugih No.16, Regol Wetan, Sumedang Sel., Kabupaten Sumedang, Jawa Barat 45311",
             "latlng": {
                 "lat": -6.860058,
                 "lng": 107.916244
@@ -374,7 +374,7 @@
             "name": "Egg Park",
             "city": "Sumedang",
             "photograph": "lorem.jpg",
-            "address": "Jalan Mayor Abdurahman, Talun, Sumedang Utara, Regol Wetan, Sumedang Selatan, Kotakaler, Sumedang Utara, Kabupaten Sumedang, Jawa Barat 45311",
+            "address": "Jln Mayor Abdurahman, Talun, Sumedang Utara, Regol Wetan, Sumedang Selatan, Kotakaler, Sumedang Utara, Kabupaten Sumedang, Jawa Barat 45311",
             "latlng": {
                 "lat": -6.847350,
                 "lng":  107.924124
