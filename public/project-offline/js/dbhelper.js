@@ -92,7 +92,7 @@ class DBHelper {
       if (error) {
         callback(error, null);
       } else {
-        let results = restaurants
+        let results = restaurants;
         if (cuisine != 'all') { // filter by cuisine
           results = results.filter(r => r.cuisine_type == cuisine);
         }
@@ -167,7 +167,11 @@ class DBHelper {
       marker.addTo(newMap);
     return marker;
   } 
-  /* static mapMarkerForRestaurant(restaurant, map) {
+  
+  /**
+   * Map marker for a restaurant using google maps
+   *
+   static mapMarkerForRestaurant(restaurant, map) {
     const marker = new google.maps.Marker({
       position: restaurant.latlng,
       title: restaurant.name,
@@ -176,7 +180,9 @@ class DBHelper {
       animation: google.maps.Animation.DROP}
     );
     return marker;
-  } */
+  }
+  *
+  */
 
 }
 
