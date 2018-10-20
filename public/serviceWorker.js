@@ -12,6 +12,26 @@ let urlToCache = [
     '/images/image-3.png',
     '/images/risyandi_logo.png',
     '/images/risyandi_profile.jpg',
+    '/project-offline/restaurant.html?id=1',
+    '/project-offline/restaurant.html?id=2',
+    '/project-offline/restaurant.html?id=3',
+    '/project-offline/restaurant.html?id=4',
+    '/project-offline/restaurant.html?id=5',
+    '/project-offline/restaurant.html?id=6',
+    '/project-offline/restaurant.html?id=7',
+    '/project-offline/restaurant.html?id=8',
+    '/project-offline/restaurant.html?id=9',
+    '/project-offline/restaurant.html?id=10',
+    '/project-offline/img/1.jpg',
+    '/project-offline/img/2.jpg',
+    '/project-offline/img/3.jpg',
+    '/project-offline/img/4.jpg',
+    '/project-offline/img/5.jpg',
+    '/project-offline/img/6.jpg',
+    '/project-offline/img/7.jpg',
+    '/project-offline/img/8.jpg',
+    '/project-offline/img/9.jpg',
+    '/project-offline/img/10.jpg',
 ];
 
 //  Process listen install service worker
@@ -20,6 +40,7 @@ self.addEventListener('install', function (event) {
     // event wait until process installing service worker
     event.waitUntil(
         caches.open(staticCacheName).then(function (cache) {
+            // add file adding on cache   
             return cache.addAll(urlToCache);
         })
     );

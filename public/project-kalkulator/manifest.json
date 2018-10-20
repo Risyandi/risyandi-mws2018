@@ -5,8 +5,8 @@
   "background_color": "#ffffff",
   "display": "standalone",
   "orientation": "portrait",
-  "Scope": "/",
-  "start_url": "/",
+  "scope": "/project-kalkulator/",
+  "start_url": "/project-kalkulator/index.html",
   "icons": [
     {
       "src": "images/icons/icon-72x72.png",
