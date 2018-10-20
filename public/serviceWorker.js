@@ -40,6 +40,7 @@ self.addEventListener('install', function (event) {
     // event wait until process installing service worker
     event.waitUntil(
         caches.open(staticCacheName).then(function (cache) {
+            // add file adding on cache   
             return cache.addAll(urlToCache);
         })
     );

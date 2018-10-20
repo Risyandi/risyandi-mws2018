@@ -1,0 +1,21 @@
+{
+  "short_name": "Risyandi",
+  "name": "Risyandi MWS",
+  "scope": "/",
+  "icons": [
+    {
+      "src": "/images/risyandi_logo_192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/images/risyandi_logo_512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ],
+  "display": "standalone",
+  "start_url": "/",
+  "background_color": "#016fba",
+  "theme_color": "#add8e6"
+}
