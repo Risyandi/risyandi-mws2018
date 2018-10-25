@@ -8,7 +8,7 @@ class DBHelper {
    * Change this to restaurants.json file location on your server.
    */
   static get DATABASE_URL() {
-    // const port = 8000  | Change this to your server port
+    // const port = 8000  | Change this to your server port if you running webapps on localhost
     var source = 'project-offline';
     return `https://risyandi-mws.firebaseapp.com/${source}/data/restaurants.json`;
   }
