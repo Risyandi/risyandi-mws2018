@@ -61,13 +61,13 @@ var URLJSON = "data/catatan.json";
 
 
 // ** testing 5
-(async () => {
-    try {
-        var response = await fetch(URLJSON);
-        var data = await response.json();
-        console.log(data.judul);
-        console.log(data.lokasi);
-    } catch (e){
-        console.log("Error");
-    }
-})();
+// (async () => {
+//     try {
+//         var response = await fetch(URLJSON);
+//         var data = await response.json();
+//         console.log(data.judul);
+//         console.log(data.lokasi);
+//     } catch (e){
+//         console.log("Error");
+//     }
+// })();
