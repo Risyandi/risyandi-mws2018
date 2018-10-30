@@ -1,0 +1,49 @@
+{
+    "places": [
+        {
+            "lokasi": [
+                -6.221028,
+                106.791434
+            ],
+            "sponsor": "resto spanyol",
+            "gambar": "images/restaurant-1.PNG",
+            "review": "restoran spanyol terbaik di jakarta"
+        },
+        {
+            "lokasi": [
+                -6.219912,
+                106.791239
+            ],
+            "sponsor": "warung kopi",
+            "gambar": "images/restaurant-2.PNG",
+            "review": "warung kopi terbaik di jakarta"
+        },
+        {
+            "lokasi": [
+                -6.220529,
+                106.789848
+            ],
+            "sponsor": "pondok ikan bakar",
+            "gambar": "images/restaurant-3.PNG",
+            "review": "pondok ikan bakar terbaik di jakarta"
+        },
+        {
+            "lokasi": [
+                -6.222977,
+                106.789152
+            ],
+            "sponsor": "cow steak",
+            "gambar": "images/restaurant-4.PNG",
+            "review": "cow steak terbaik di jakarta"
+        },
+        {
+            "lokasi": [
+                6.222043,
+                106.791070
+            ],
+            "sponsor": "macam-macam seafood",
+            "gambar": "images/restaurant-5.PNG",
+            "review": "seafood terbaik di jakarta"
+        }
+    ]
+}
