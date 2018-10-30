@@ -64,7 +64,7 @@ body {
   backface-visibility: hidden;
   -webkit-backface-visibility: hidden;
 } */
-
+/*
 .title-ads{
 	color: #fff;
   text-transform: uppercase;
@@ -83,7 +83,7 @@ body {
 .landing-page {
   cursor: pointer;
 }
- 
+*/
 /*
 .gap-test {
   margin-bottom:2500px !important;
@@ -117,7 +117,7 @@ body {
 /*
  * new style for parallax creative
  */
-.main-parallax {
+/* .main-parallax {
   background-image: url('https://tpc.googlesyndication.com/pagead/imgad?id=CICAgKCb4pbu4AEQARgBMgjJNxt9zMZ8yw');
   background-repeat: no-repeat;
   background-size: cover;
@@ -149,3 +149,21 @@ body {
   width: 100%;
   height: 300px;
 }
+.title-ads{
+	color: #fff;
+  text-transform: uppercase;
+  font: normal 9px arial;
+  left: 0px;
+  margin: 0px;
+  width: 100%;
+  height: 18px;
+  line-height: 20px;
+  background: #696868;
+  letter-spacing: 1.01px;
+	text-align: center;
+	position: relative;
+	top: 97%;
+}
+.landing-page {
+  cursor: pointer;
+} */
