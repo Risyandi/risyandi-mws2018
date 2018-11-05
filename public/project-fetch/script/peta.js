@@ -12,7 +12,7 @@ var defaultLocation = [
 ];
 
 var index = 0;
-for (loc of dataLocation) {
+for (loc of defaultLocation) {
     var marker = L.marker(loc[0]).addTo(mymap);
     if (index == 0)
         marker.bindPopup(loc[1]).openPopup();
