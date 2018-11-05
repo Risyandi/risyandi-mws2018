@@ -7,6 +7,20 @@ L.tileLayer('https://api.tiles.mapbox.com/v4/{id}/{z}/{x}/{y}.png?access_token={
         accessToken: 'pk.eyJ1IjoicmlzeWFuZGkiLCJhIjoiY2pseGcycWs5MDk4YTNrb3Y3Z2cxeTZ5MCJ9.Bf6nqQP9QQnir2TdQUS2Bw'
     }).addTo(mymap);
 
+var defaultLocation = [
+    [[-6.221028,106.791434], "<center><bold>Default Location</bold></center>"]
+];
+
+var index = 0;
+for (loc of defaultLocation) {
+    var marker = L.marker(loc[0]).addTo(mymap);
+    if (index == 0)
+        marker.bindPopup(loc[1]).openPopup();
+    else
+        marker.bindPopup(loc[1]);
+    index++;
+}
+
 // declaration URL
 const URL = "https://risyandi-mws.firebaseapp.com/project-fetch/data/peta.json";
 // fetching URL
