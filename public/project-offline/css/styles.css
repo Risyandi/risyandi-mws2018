@@ -365,3 +365,9 @@ nav h1 a {
     width: 28vh;
   }
 }
+
+@media (max-width: 320px) {
+  .filter-options select {
+    width: 25vh;
+  }
+}
