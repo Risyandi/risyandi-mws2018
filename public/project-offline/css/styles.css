@@ -360,14 +360,14 @@ nav h1 a {
   }
 }
 
-@media (max-width: 375px) {
+@media (max-width: 375px), (max-width: 360px)  {
   .filter-options select {
     width: 28vh;
   }
 }
 
-@media (max-width: 320px) {
+@media (max-width: 250px){
   .filter-options select {
-    width: 25vh;
+    width: 20vh;
   }
 }
