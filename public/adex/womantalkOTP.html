@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Staging | Testing Over The Page (OTP)</title>
+
+    <!-- start tags DFP -->
+    <script async='async' src='https://www.googletagservices.com/tag/js/gpt.js'></script>
+    <script>
+      var googletag = googletag || {};
+      googletag.cmd = googletag.cmd || [];
+    </script>
+    
+    <script>
+      googletag.cmd.push(function() {
+        var desktop_mapping = googletag.sizeMapping()
+              .addSize([800, 600], [[1, 1]])
+              .addSize([0, 0], [])
+              .build();
+
+        var mobile_mapping = googletag.sizeMapping()
+              .addSize([800, 600], [])
+              .addSize([0, 0], [[1, 1]])
+              .build();
+
+        googletag.defineOutOfPageSlot('/118200697/GVM_Staging/OTP_test', 'staging-overlay-desktop')
+        .defineSizeMapping(desktop_mapping)
+        .addService(googletag.pubads());
+
+        googletag.defineOutOfPageSlot('/118200697/GVM_Staging/OTP_test_mobile', 'staging-overlay-mobile')
+        .defineSizeMapping(mobile_mapping)
+        .addService(googletag.pubads());
+
+        googletag.pubads().enableSingleRequest();
+        googletag.pubads().collapseEmptyDivs(true);
+        googletag.enableServices();
+      });
+    </script>
+    <!-- end tags DFP -->
+
+</head>
+
+<body>
+    <!-- start body tags DFP -->
+    <!-- OTP Desktop -->
+    <div id='staging-overlay-desktop' class="overlay-desktop">
+        <script>
+            googletag.cmd.push(function () { googletag.display('staging-overlay-desktop'); });
+        </script>
+    </div>
+
+    <!-- OTP Mobile -->
+    <div id='staging-overlay-mobile' class="overlay-mobile">
+        <script>
+            googletag.cmd.push(function () { googletag.display('staging-overlay-mobile'); });
+        </script>
+    </div>
+    <!-- end body tags DFP -->
+</body>
+
+</html>
