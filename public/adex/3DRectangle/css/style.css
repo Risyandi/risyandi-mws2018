@@ -1,0 +1,35 @@
+.ad-container {
+    position: absolute;
+    width: 300px;
+    height: 300px;
+    margin: 0 auto;
+    left: 50%;
+    transform: translate(-50%, 0);
+}
+
+.ws-swipe {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    height: 100%;
+    width: 100%;
+}
+
+.swiper-slide img {
+    height: 300px;
+    width: 100%;
+    z-index: 1;
+}
+
+.swiper-wrapper {
+    z-index: 1;
+}
+
+#swipeInstructions {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 150px;
+    z-index: 9;
+}

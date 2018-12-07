@@ -1,0 +1,169 @@
+@font-face {
+  font-family: 'BLOKKNeue-Regular';
+  src: url('blokkfont-master/BLOKKNeue-Regular/webfonts/BLOKKNeue-Regular.eot');
+}
+@font-face {
+  font-family: 'BLOKKNeue-Regular';
+  src: url('blokkfont-master/BLOKKNeue-Regular/webfonts/BLOKKNeue-Regular.woff') format('woff'),
+  url('blokkfont-master/BLOKKNeue-Regular/webfonts/BLOKKNeue-Regular.svg#BLOKKNeue-Regular') format('svg');
+}
+p {
+  font-family: "BLOKKNeue-Regular", serif ;
+  font-size: 20px;
+}
+h2 {
+  font-family: "BLOKKNeue-Regular", serif
+}
+h3 {
+  font-family: "BLOKKNeue-Regular", serif
+}
+h4 {
+  font-family: "BLOKKNeue-Regular", serif
+}
+h5 {
+  font-family: "BLOKKNeue-Regular", serif
+}
+h6 {
+  font-family: "BLOKKNeue-Regular", serif
+}
+body {
+  font-family: "Helvetica", serif
+}
+
+/* 
+.item-parallaxAds{
+  padding-bottom:50%;
+  width:100%;
+  margin:auto;
+  max-height:180px !important;
+  background: #333;    
+  text-align: center;
+  height: 100% !important;
+  background: url('https://tpc.googlesyndication.com/pagead/imgad?id=CICAgKCb4pbu4AEQARgBMgjJNxt9zMZ8yw') no-repeat center center fixed;
+  background-repeat: none;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover; 
+}
+* not support for mobile phone if using, background-attachment: fixed; 
+*/
+
+/*
+.item-parallaxAds {
+  padding-bottom: 50%;
+  width: 100vw;
+  background: url('https://tpc.googlesyndication.com/pagead/imgad?id=CICAgKCb4pbu4AEQARgBMgjJNxt9zMZ8yw') no-repeat fixed;
+  background-size: cover;
+  background-position: 50% 50%;
+}
+* not support for mobile phone if using second ways 
+*/
+
+/* body * {
+  backface-visibility: hidden;
+  -webkit-backface-visibility: hidden;
+} */
+/*
+.title-ads{
+	color: #fff;
+  text-transform: uppercase;
+  font: normal 9px arial;
+  left: 0px;
+  margin: 0px;
+  width: 100%;
+  height: 18px;
+  line-height: 20px;
+  background: #696868;
+  letter-spacing: 1.01px;
+	text-align: center;
+	position: relative;
+	top: 97%;
+}
+.landing-page {
+  cursor: pointer;
+}
+*/
+/*
+.gap-test {
+  margin-bottom:2500px !important;
+}
+*/
+
+/*
+#parallax-reveal {
+  width: 100%;
+  height: 250px;
+  display: block;
+  background-color: transparent;
+  pointer-events: none;
+  position: relative;
+  z-index: 1;
+}
+#underlayer {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: -1;
+  background: url('https://tpc.googlesyndication.com/pagead/imgad?id=CICAgKCb4pbu4AEQARgBMgjJNxt9zMZ8yw');
+  background-size: cover;
+}
+* working but you should adding a background color white on both content
+*/
+
+
+/*
+ * new style for parallax creative
+ */
+/* .main-parallax {
+  background-image: url('https://tpc.googlesyndication.com/pagead/imgad?id=CICAgKCb4pbu4AEQARgBMgjJNxt9zMZ8yw');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  padding: 0rem;
+}
+#main-parallax{
+  position: fixed;
+  display: block;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100% !important;
+  transform: translateZ(0);
+  will-change: transform;
+  z-index: 1;
+  background-attachment: scroll !important;
+}
+.parallax-section {
+  position: relative;
+  width: 100%;
+  height: 300px;
+ }
+.parallax-child-section {
+  clip: rect(0,auto,auto,0);
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 300px;
+}
+.title-ads{
+	color: #fff;
+  text-transform: uppercase;
+  font: normal 9px arial;
+  left: 0px;
+  margin: 0px;
+  width: 100%;
+  height: 18px;
+  line-height: 20px;
+  background: #696868;
+  letter-spacing: 1.01px;
+	text-align: center;
+	position: relative;
+	top: 97%;
+}
+.landing-page {
+  cursor: pointer;
+} */
