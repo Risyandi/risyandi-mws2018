@@ -420,7 +420,7 @@ nav h1 a {
         width: 100%;
     }
     .filter-options select {
-        width: 35vh;
+        width: 30vh;
     }
     .main-content {
         padding: 30px 25px;
@@ -436,7 +436,7 @@ nav h1 a {
 @media (max-width: 375px),
 (max-width: 360px) {
     .filter-options select {
-        width: 28vh;
+        width: 25vh;
     }
 }
 
