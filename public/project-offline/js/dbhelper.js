@@ -10,7 +10,7 @@ class DBHelper {
   static get DATABASE_URL() {
     // const port = 8000  | Change this to your server port if you running webapps on localhost
     var source = 'project-offline';
-    return `https://risyandi-mws.firebaseapp.com/${source}/data/restaurants.json`;
+    return `https://risyandi-mws.web.app/${source}/data/restaurants.json`;
   }
 
   /**
