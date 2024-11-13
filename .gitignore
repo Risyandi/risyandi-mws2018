@@ -1,2 +1,4 @@
 # ignore folder cache firebase
 .firebase/
+.firebaserc
+.github/
