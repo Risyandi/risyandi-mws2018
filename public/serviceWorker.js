@@ -22,16 +22,16 @@ let urlToCache = [
     '/project-offline/restaurant.html?id=8',
     '/project-offline/restaurant.html?id=9',
     '/project-offline/restaurant.html?id=10',
-    '/project-offline/img/1.jpg',
-    '/project-offline/img/2.jpg',
-    '/project-offline/img/3.jpg',
-    '/project-offline/img/4.jpg',
-    '/project-offline/img/5.jpg',
-    '/project-offline/img/6.jpg',
-    '/project-offline/img/7.jpg',
-    '/project-offline/img/8.jpg',
-    '/project-offline/img/9.jpg',
-    '/project-offline/img/10.jpg',
+    '/project-offline/images/1.jpg',
+    '/project-offline/images/2.jpg',
+    '/project-offline/images/3.jpg',
+    '/project-offline/images/4.jpg',
+    '/project-offline/images/5.jpg',
+    '/project-offline/images/6.jpg',
+    '/project-offline/images/7.jpg',
+    '/project-offline/images/8.jpg',
+    '/project-offline/images/9.jpg',
+    '/project-offline/images/10.jpg',
 ];
 
 //  Process listen install service worker
@@ -66,14 +66,24 @@ self.addEventListener('activate', function (event) {
 //  Process Listen fetching service worker
 self.addEventListener('fetch', function (event) {
     console.log("run process fetching");
-    // event respond untill process fetch service worker
     event.respondWith(
-        caches.open(staticCacheName).then(function (cache) {
-            return cache.match(event.request).then(function (response) {
-                return response || fetch(event.request).then(function (response) {
-                    cache.put(event.request, response.clone());
+        caches.match(event.request).then(function (response) {
+            if (response) {
+                return response;
+            }
+
+            return fetch(event.request).then(function (response) {
+                if (!response || response.status !== 200 || response.type !== 'basic') {
                     return response;
+                }
+
+                var responseToCache = response.clone();
+
+                caches.open(staticCacheName).then(function (cache) {
+                    cache.put(event.request, responseToCache);
                 });
+
+                return response;
             });
         })
     );
