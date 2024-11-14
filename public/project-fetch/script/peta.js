@@ -20,7 +20,8 @@ for (loc of defaultLocation) {
 }
 
 // declaration URL
-const URL = "https://risyandi-mws.firebaseapp.com/project-fetch/data/peta.json";
+let urlOrigin = window.location.origin;
+const URL = `${urlOrigin}/project-fetch/data/peta.json`;
 // fetching URL
 fetch(URL)
     .then(function (response) {
